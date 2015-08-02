@@ -1175,7 +1175,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #52ffff;
+  background: #94e488;
 }
 .sidebar-nav {
   margin: 0;
@@ -2291,7 +2291,6 @@ body {
   margin-left: -20px;
 }
 .menu {
-  float: right;
   margin: 8px 0 0 20px;
   padding: 0 20px;
 }
