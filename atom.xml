@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Paul's Notebook]]></title>
+  <subtitle><![CDATA[好记性不如烂手指头]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-08-12T05:41:31.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Paul Pan]]></name>
+    <email><![CDATA[ypan887@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Saving Code Snippet with gist]]></title>
+    <link href="http://yoursite.com/2015/08/10/Saving-Code-Snippet-with-gist/"/>
+    <id>http://yoursite.com/2015/08/10/Saving-Code-Snippet-with-gist/</id>
+    <published>2015-08-10T19:37:01.000Z</published>
+    <updated>2015-08-12T05:41:31.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Saving_good_piece_of_code_on_Gist_using_sublime_text">Saving good piece of code on Gist using sublime text</h2><p>I wanted to store all the good piece of code that I have encountered. These code are often good pratice to a problem or sometime inpirating to me, so they need to be well organized and easy to fetch when I need them. because these code are often useful and inspirating. I found couple possible way to do it:</p>
+<pre><code><span class="bullet">1. </span>Personal Wiki
+<span class="bullet">2. </span>Evernote
+<span class="bullet">3. </span>Onenote
+<span class="bullet">4. </span>Dash
+<span class="bullet">5. </span>Gist
+</code></pre><p>Personal is a good option to organize knowledge. I already build an wiki using dokuwiki and I love it. The pro is I get to take advantage of the beautiful code highlight theme. However, I think wiki will be too heavy for the job. For now, I want a tool to store <em>all</em> the good snippet. Dokuwiki is just not convienent enough. I may use it to manange couple snippet that is most important to me.</p>
+<p>Evernote and Onenote, they are both good tool and quite convienent in storing snippet. The cons is when I need to retrive the snippet, it may took me some extra steps, and I already have too many notes managed by these two and I don’t want to mixed in thousands of code snippet to mess my search result. </p>
+<p>Dash actually has a very good snippet function. It’s good for offline use and it’s my second option in storing snippet.</p>
+<p>My first option in storing snippet is gist. You can find out about gist <a href="https://github.com/blog/1276-welcome-to-a-new-gist" target="_blank" rel="external">here</a>. Gist store snippet on github and you can create a private gist even as a free user. I searched and found a sublime plugin called Gist. You can find how to setup <a href="https://github.com/condemil/Gist" target="_blank" rel="external">here</a>. This plugin have very handy function is handling gist. For any piece of code you have in sublime text you can make it an gist snippet and store it under your gist repo. You can retrive the snippet in sublime text and update your snippet as well. However, the plugin is having some issue right now. I tried to use it with both sublime text 2 and sublime text 3. It always give the error that says “Gist: unknown error (please, report a bug!)”. Althought I can still create gist snippet by ignoring the error sign, I can’t use other functions such as open gist or upgrade gist. It seems there are no solution for this matter so far. </p>
+<p>Update: I found another sublime plugin that is up to the job:<br><a href="https://github.com/bgreenlee/sublime-github" target="_blank" rel="external">sublime-github</a>. This plugin can do almost all the function that the gist plugin can do, plus it give you the freedom to switch between different account.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Saving_good_piece_of_code_on_Gist_using_sublime_text">Saving good piece of code on Gist using sublime text</h2><p>I wanted to store ]]>
+    </summary>
+    
+      <category term="note; snippet; gist" scheme="http://yoursite.com/tags/note-snippet-gist/"/>
+    
+      <category term="productivity" scheme="http://yoursite.com/categories/productivity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2015/07/14/hello-world/"/>
+    <id>http://yoursite.com/2015/07/14/hello-world/</id>
+    <published>2015-07-14T20:50:49.000Z</published>
+    <updated>2015-07-13T00:53:20.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
