@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    <lastmod>2015-08-14T04:30:20.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/08/10/Saving-Code-Snippet-with-gist/</loc>
     <lastmod>2015-08-13T23:34:20.000Z</lastmod>
   </url>
